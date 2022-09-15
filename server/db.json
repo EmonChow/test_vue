@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Emqon",
+      "lastname": "chowdhury",
+      "email": "emonchow@gmail.com",
+      "password": "emoqn",
+      "confirm_password": "emoqn"
+    },
+    {
+      "id": 2,
+      "firstname": "Eqmon",
+      "lastname": "chowdhury",
+      "email": "emon@gmail.com",
+      "password": "eqmon",
+      "confirm_password": "eqmon"
+    },
+    {
+      "id": 3,
+      "firstname": "Emqon",
+      "lastname": "chowdhury",
+      "email": "emogfgfn@gmail.com",
+      "password": "emqon",
+      "confirm_password": "emqon"
+    }
+   
+  ]
+}
