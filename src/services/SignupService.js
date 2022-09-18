@@ -5,7 +5,7 @@ const apiClient = axios.create({
     data: {},
     withCredentials: false,
     headers: {
-        'Accept': 'application.json',
+        Accept: 'application.json',
        'Content-Type':'application.json'
     }
 
@@ -17,5 +17,6 @@ export default {
     postSignup(){
         return apiClient.post('/users')
     }
+  
 }
 

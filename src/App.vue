@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue';
+import Home from './components/Home.vue'
 </script>
 
 <template>
@@ -8,11 +8,13 @@ import NavBar from './components/NavBar.vue';
    
 
     <div class="wrapper">
-      <NavBar/>
+     
 
       <nav>
-        <RouterLink to="/login-page">Login</RouterLink>
-        <RouterLink to="/sign-up">Sign Up</RouterLink>
+     
+        <RouterLink to="/login">Login</RouterLink>
+        <RouterLink to="/register">Sign Up</RouterLink>
+      
       </nav>
     </div>
   </header>
