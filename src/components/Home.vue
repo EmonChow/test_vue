@@ -1,7 +1,7 @@
 
 <template>
    <div>
-      <h1 v-if="user"> Welcome to Our Home </h1>
+      <h1 v-if="user"> Welcome to Our Home. </h1>
    </div>
 </template>
 
